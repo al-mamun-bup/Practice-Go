@@ -50,7 +50,6 @@ func main() {
 		for _, booking := range bookings {
 			var names = strings.Fields(booking)
 			firstNames = append(firstNames, names[0])
-
 		}
 		fmt.Printf("These first names of bookings are: %v\n", firstNames)
 
