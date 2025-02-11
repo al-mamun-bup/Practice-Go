@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"go-practice/helper"
 	"strings"
+
+	"go-practice/helper"
 )
 
 const conferenceTickets int = 50
